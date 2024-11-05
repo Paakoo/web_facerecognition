@@ -8,4 +8,4 @@ app = Flask(__name__)
 app.register_blueprint(face_recognition_bp)
 
 if __name__ == '__main__':
-    app.run(debug=True, host='192.168.1.31')
+    app.run(debug=True)
